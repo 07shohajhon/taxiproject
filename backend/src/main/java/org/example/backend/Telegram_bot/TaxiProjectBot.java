@@ -2798,10 +2798,10 @@ else if(data.equals("car")){
         InlineKeyboardButton button1 = new InlineKeyboardButton();
         if (user.getLanguage().equals("uz")) {
             button1.setText("🚖 Haydovchi");
-            button1.setUrl("http://162.55.223.218:5174/register?chatId=" + chatId + "&language=uz");
+            button1.setUrl("https://68adba92341f841953965364--bright-tarsier-b2ecc3.netlify.app/register?chatId=" + chatId + "&language=uz");
         } else {
             button1.setText("🚖 Драйверы");
-            button1.setUrl("http://162.55.223.218:5174/register?chatId=" + chatId + "&language=ru");
+            button1.setUrl("https://68adba92341f841953965364--bright-tarsier-b2ecc3.netlify.app/register?chatId=" + chatId + "&language=ru");
         }
         button1.setCallbackData("Drivers");
         row1.add(button1);

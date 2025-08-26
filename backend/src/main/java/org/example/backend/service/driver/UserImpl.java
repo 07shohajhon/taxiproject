@@ -98,13 +98,13 @@ public class UserImpl implements UserService{
             // Uz tilidagi xabar
             if (user.getLanguage().equals("uz")) {
                 text = "🎉 Tabriklaymiz! Siz muvaffaqiyatli tasdiqlandingiz. Telegram botdan davom etish uchun /start buyrug'ini bering.\n" +
-                        "🌐 Veb saytdan davom etish uchun: http://162.55.223.218:5174/login\n" +
+                        "🌐 Veb saytdan davom etish uchun: https://68adba92341f841953965364--bright-tarsier-b2ecc3.netlify.app/login\n" +
                         "🔑 Login: " + user.getPhoneNumber() + " | Parol: " + plainPassword;
             }
             // Rus tilidagi xabar
             else {
                 text = "🎉 Поздравляем! Вы успешно подтверждены. Для начала введите команду /start.\n" +
-                        "🌐 Продолжить на сайте: http://162.55.223.218:5174/login\n" +
+                        "🌐 Продолжить на сайте: https://68adba92341f841953965364--bright-tarsier-b2ecc3.netlify.app/login\n" +
                         "🔑 Логин: " + user.getPhoneNumber() + " | Пароль: " + plainPassword;
             }
 
